@@ -1,0 +1,403 @@
+(00.001179) Version: 3.6 (gitid 0)
+(00.003076) cpu: fpu:1 fxsr:1 xsave:0
+(00.003581) kernel pid_max=32768
+(00.003642) Reading image tree
+(00.004050) Add mnt ns 5 pid 11773
+(00.004138) pstree pid_max=11779
+(00.004222) Migrating process tree (GID 11779->11787 SID 8055->8055)
+(00.004329) Will restore in 0 namespaces
+(00.004378) NS mask to use 0
+(00.004435) Collecting 37/54 (flags 2)
+(00.004619) Collected [usr/bin/python2.7] ID 0x1
+(00.004700) Collected [lib/x86_64-linux-gnu/libm-2.27.so] ID 0x2
+(00.004789) Collected [lib/x86_64-linux-gnu/libz.so.1.2.11] ID 0x3
+(00.004850) Collected [lib/x86_64-linux-gnu/libutil-2.27.so] ID 0x4
+(00.004905) Collected [lib/x86_64-linux-gnu/libdl-2.27.so] ID 0x5
+(00.004959) Collected [lib/x86_64-linux-gnu/libpthread-2.27.so] ID 0x6
+(00.005012) Collected [lib/x86_64-linux-gnu/libc-2.27.so] ID 0x7
+(00.005065) Collected [lib/x86_64-linux-gnu/ld-2.27.so] ID 0x8
+(00.005118) Collected [usr/lib/locale/C.UTF-8/LC_CTYPE] ID 0x9
+(00.005171) Collected [usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache] ID 0xa
+(00.005223) Collected [dev/null] ID 0xb
+(00.005274) Collected [root/nohup.out] ID 0xc
+(00.005347) Collected [root] ID 0xd
+(00.005405) Collected [.] ID 0xe
+(00.005467)  `- ... done
+(00.005508) Collecting 43/59 (flags 0)
+(00.005580) No remap-fpath.img image
+(00.005625)  `- ... done
+(00.005767) No cgroup.img image
+(00.005884) Running pre-restore scripts
+(00.007464) No mountpoints-5.img image
+(00.007551) mnt: Reading mountpoint images (id 5 pid 11773)
+(00.007939) Forking task with 11773 pid (flags 0x0)
+(00.008872) PID: real 11773 virt 11773
+(00.011976)  11773: cg: Cgroups 1 inherited from parent
+(00.012425)  11773: Calling restore_sid() for init
+(00.012579)  11773: Collecting 41/37 (flags 2)
+(00.012678)  11773: No tty-info.img image
+(00.012730)  11773:  `- ... done
+(00.012768)  11773: Collecting 42/51 (flags 0)
+(00.012823)  11773: No tty-data.img image
+(00.012867)  11773:  `- ... done
+(00.012906)  11773: Restoring namespaces 11773 flags 0x0
+(00.012946)  11773: Preparing info about shared resources
+(00.014235)  11773: No seccomp.img image
+(00.014366)  11773: Collecting 45/38 (flags 0)
+(00.014434)  11773: No filelocks.img image
+(00.014478)  11773:  `- ... done
+(00.014518)  11773: Collecting 39/27 (flags 0)
+(00.014573)  11773: No pipes-data.img image
+(00.014612)  11773:  `- ... done
+(00.014645)  11773: Collecting 40/27 (flags 0)
+(00.014695)  11773: No fifo-data.img image
+(00.014771)  11773:  `- ... done
+(00.014802)  11773: Collecting 38/60 (flags 0)
+(00.014855)  11773: No sk-queues.img image
+(00.014896)  11773:  `- ... done
+(00.015777)  11773: Found 42 VMAs in image
+(00.015848)  11773: vma 0x5624bb1c4000 0x5624bb4c4000
+(00.015891)  11773: vma 0x5624bb6c4000 0x5624bb6c6000
+(00.015922)  11773: vma 0x5624bb6c6000 0x5624bb73c000
+(00.015953)  11773: vma 0x5624bb73c000 0x5624bb760000
+(00.015983)  11773: vma 0x5624bc6a1000 0x5624bc775000
+(00.016013)  11773: vma 0x7f26027af000 0x7f260294c000
+(00.016043)  11773: vma 0x7f260294c000 0x7f2602b4b000
+(00.016073)  11773: vma 0x7f2602b4b000 0x7f2602b4c000
+(00.016104)  11773: vma 0x7f2602b4c000 0x7f2602b4d000
+(00.016134)  11773: vma 0x7f2602b4d000 0x7f2602b69000
+(00.016164)  11773: vma 0x7f2602b69000 0x7f2602d68000
+(00.016193)  11773: vma 0x7f2602d68000 0x7f2602d69000
+(00.016222)  11773: vma 0x7f2602d69000 0x7f2602d6a000
+(00.016251)  11773: vma 0x7f2602d6a000 0x7f2602d6c000
+(00.016281)  11773: vma 0x7f2602d6c000 0x7f2602f6b000
+(00.016320)  11773: vma 0x7f2602f6b000 0x7f2602f6c000
+(00.016350)  11773: vma 0x7f2602f6c000 0x7f2602f6d000
+(00.016380)  11773: vma 0x7f2602f6d000 0x7f2602f70000
+(00.016410)  11773: vma 0x7f2602f70000 0x7f260316f000
+(00.016439)  11773: vma 0x7f260316f000 0x7f2603170000
+(00.016468)  11773: vma 0x7f2603170000 0x7f2603171000
+(00.016497)  11773: vma 0x7f2603171000 0x7f260318b000
+(00.016526)  11773: vma 0x7f260318b000 0x7f260338a000
+(00.016555)  11773: vma 0x7f260338a000 0x7f260338b000
+(00.016584)  11773: vma 0x7f260338b000 0x7f260338c000
+(00.016613)  11773: vma 0x7f260338c000 0x7f2603390000
+(00.016642)  11773: vma 0x7f2603390000 0x7f2603577000
+(00.016698)  11773: vma 0x7f2603577000 0x7f2603777000
+(00.016991)  11773: vma 0x7f2603777000 0x7f260377b000
+(00.017026)  11773: vma 0x7f260377b000 0x7f260377d000
+(00.017056)  11773: vma 0x7f260377d000 0x7f2603781000
+(00.017085)  11773: vma 0x7f2603781000 0x7f26037aa000
+(00.017115)  11773: vma 0x7f26037f9000 0x7f260382a000
+(00.017144)  11773: vma 0x7f260382a000 0x7f26039a2000
+(00.017173)  11773: vma 0x7f26039a3000 0x7f26039aa000
+(00.017225)  11773: vma 0x7f26039aa000 0x7f26039ab000
+(00.017255)  11773: vma 0x7f26039ab000 0x7f26039ac000
+(00.017284)  11773: vma 0x7f26039ac000 0x7f26039ad000
+(00.017313)  11773: vma 0x7ffebf689000 0x7ffebf6aa000
+(00.017341)  11773: vma 0x7ffebf6c1000 0x7ffebf6c4000
+(00.017412)  11773: vma 0x7ffebf6c4000 0x7ffebf6c6000
+(00.017452)  11773: vma 0xffffffffff600000 0xffffffffff601000
+(00.017585)  11773: Collect fdinfo pid=11773 fd=0 id=0xb
+(00.017652)  11773: Collect fdinfo pid=11773 fd=1 id=0xc
+(00.017696)  11773: Collect fdinfo pid=11773 fd=2 id=0xc
+(00.018783)  11773: Preparing SCMs
+(00.018852)  11773: File descs:
+(00.018897)  11773:  `- type 1 ID 0x1
+(00.018932)  11773:  `- type 1 ID 0x2
+(00.018961)  11773:  `- type 1 ID 0x3
+(00.018988)  11773:  `- type 1 ID 0x4
+(00.019016)  11773:  `- type 1 ID 0x5
+(00.019043)  11773:  `- type 1 ID 0x6
+(00.019070)  11773:  `- type 1 ID 0x7
+(00.019098)  11773:  `- type 1 ID 0x8
+(00.019125)  11773:  `- type 1 ID 0x9
+(00.019152)  11773:  `- type 1 ID 0xa
+(00.019179)  11773:  `- type 1 ID 0xb
+(00.019207)  11773:    `- FD 0 pid 11773
+(00.019237)  11773:  `- type 1 ID 0xc
+(00.019264)  11773:    `- FD 1 pid 11773
+(00.019292)  11773:    `- FD 2 pid 11773
+(00.019319)  11773:  `- type 1 ID 0xd
+(00.019346)  11773:  `- type 1 ID 0xe
+(00.019757)  11773: Opened local page read 1 (parent 0)
+(00.019849)  11773: Enqueue page-read
+(00.019912)  11773: Enqueue page-read
+(00.019942)  11773: Enqueue page-read
+(00.019976)  11773: Enqueue page-read
+(00.020004)  11773: Enqueue page-read
+(00.020032)  11773: Enqueue page-read
+(00.020059)  11773: Enqueue page-read
+(00.020087)  11773: Enqueue page-read
+(00.020114)  11773: Enqueue page-read
+(00.020141)  11773: Enqueue page-read
+(00.020168)  11773: Enqueue page-read
+(00.020195)  11773: Enqueue page-read
+(00.020222)  11773: Enqueue page-read
+(00.020248)  11773: Enqueue page-read
+(00.020275)  11773: Enqueue page-read
+(00.020303)  11773: Enqueue page-read
+(00.020330)  11773: Enqueue page-read
+(00.020357)  11773: Enqueue page-read
+(00.020383)  11773: Enqueue page-read
+(00.020410)  11773: Enqueue page-read
+(00.020437)  11773: Enqueue page-read
+(00.020464)  11773: Enqueue page-read
+(00.020491)  11773: Enqueue page-read
+(00.020518)  11773: Enqueue page-read
+(00.020544)  11773: Enqueue page-read
+(00.020570)  11773: Enqueue page-read
+(00.020596)  11773: Enqueue page-read
+(00.020623)  11773: Enqueue page-read
+(00.020650)  11773: Enqueue page-read
+(00.020677)  11773: Enqueue page-read
+(00.020703)  11773: Enqueue page-read
+(00.020730)  11773: Enqueue page-read
+(00.020757)  11773: Enqueue page-read
+(00.020784)  11773: Enqueue page-read
+(00.020810)  11773: Enqueue page-read
+(00.020837)  11773: Enqueue page-read
+(00.020864)  11773: Enqueue page-read
+(00.020890)  11773: Enqueue page-read
+(00.020926)  11773: Enqueue page-read
+(00.020954)  11773: Enqueue page-read
+(00.020980)  11773: Enqueue page-read
+(00.021055)  11773: nr_restored_pages: 684
+(00.021086)  11773: nr_shared_pages:   0
+(00.021115)  11773: nr_droped_pages:   0
+(00.021143)  11773: nr_lazy:           0
+(00.021329)  11773: Shrunk premap area to 0x7f31f6df3000(0)
+(00.021373)  11773: Restore on-core sigactions for 11773
+(00.021516)  11773: Restoring children in alien sessions:
+(00.021546)  11773: Restoring children in our session:
+(00.021585)  11773: Restoring 11773 to 11787 pgid
+(00.021940)  11773: Restoring resources
+(00.022052)  11773: Opening fdinfo-s
+(00.022507)  11773: 		Create fd for 0
+(00.022611)  11773: 		Create fd for 1
+(00.022651)  11773: 			Going to dup 1 into 2
+(00.022699)  11773: 	Receive fd for 2
+(00.022980)  11773: Opening 0x005624bb1c4000-0x005624bb4c4000 0000000000000000 (41) vma
+(00.023058)  11773: Opening 0x005624bb6c4000-0x005624bb6c6000 0x00000000300000 (41) vma
+(00.023150)  11773: Opening 0x005624bb6c6000-0x005624bb73c000 0x00000000302000 (41) vma
+(00.023181)  11773: Opening 0x007f26027af000-0x007f260294c000 0000000000000000 (20000041) vma
+(00.023271)  11773: Opening 0x007f260294c000-0x007f2602b4b000 0x0000000019d000 (41) vma
+(00.023302)  11773: Opening 0x007f2602b4b000-0x007f2602b4c000 0x0000000019c000 (41) vma
+(00.023329)  11773: Opening 0x007f2602b4c000-0x007f2602b4d000 0x0000000019d000 (41) vma
+(00.023356)  11773: Opening 0x007f2602b4d000-0x007f2602b69000 0000000000000000 (20000041) vma
+(00.023412)  11773: Opening 0x007f2602b69000-0x007f2602d68000 0x0000000001c000 (41) vma
+(00.023443)  11773: Opening 0x007f2602d68000-0x007f2602d69000 0x0000000001b000 (41) vma
+(00.023470)  11773: Opening 0x007f2602d69000-0x007f2602d6a000 0x0000000001c000 (41) vma
+(00.023496)  11773: Opening 0x007f2602d6a000-0x007f2602d6c000 0000000000000000 (20000041) vma
+(00.023552)  11773: Opening 0x007f2602d6c000-0x007f2602f6b000 0x00000000002000 (41) vma
+(00.023582)  11773: Opening 0x007f2602f6b000-0x007f2602f6c000 0x00000000001000 (41) vma
+(00.023609)  11773: Opening 0x007f2602f6c000-0x007f2602f6d000 0x00000000002000 (41) vma
+(00.023635)  11773: Opening 0x007f2602f6d000-0x007f2602f70000 0000000000000000 (20000041) vma
+(00.023685)  11773: Opening 0x007f2602f70000-0x007f260316f000 0x00000000003000 (41) vma
+(00.023715)  11773: Opening 0x007f260316f000-0x007f2603170000 0x00000000002000 (41) vma
+(00.023742)  11773: Opening 0x007f2603170000-0x007f2603171000 0x00000000003000 (41) vma
+(00.023768)  11773: Opening 0x007f2603171000-0x007f260318b000 0000000000000000 (20000041) vma
+(00.023823)  11773: Opening 0x007f260318b000-0x007f260338a000 0x0000000001a000 (41) vma
+(00.023853)  11773: Opening 0x007f260338a000-0x007f260338b000 0x00000000019000 (41) vma
+(00.023880)  11773: Opening 0x007f260338b000-0x007f260338c000 0x0000000001a000 (41) vma
+(00.023907)  11773: Opening 0x007f2603390000-0x007f2603577000 0000000000000000 (20000041) vma
+(00.023956)  11773: Opening 0x007f2603577000-0x007f2603777000 0x000000001e7000 (41) vma
+(00.023986)  11773: Opening 0x007f2603777000-0x007f260377b000 0x000000001e7000 (41) vma
+(00.024012)  11773: Opening 0x007f260377b000-0x007f260377d000 0x000000001eb000 (41) vma
+(00.024039)  11773: Opening 0x007f2603781000-0x007f26037aa000 0000000000000000 (20000041) vma
+(00.024086)  11773: Opening 0x007f26037f9000-0x007f260382a000 0000000000000000 (41) vma
+(00.024149)  11773: Opening 0x007f26039a3000-0x007f26039aa000 0000000000000000 (81) vma
+(00.024211)  11773: Opening 0x007f26039aa000-0x007f26039ab000 0x00000000029000 (41) vma
+(00.024260)  11773: Opening 0x007f26039ab000-0x007f26039ac000 0x0000000002a000 (41) vma
+(00.024697)  11773: `- render 30 iovs (0x5624bb1c4000:4096...)
+(00.024746)  11773: Restore via sigreturn
+(00.025603)  11773: Parsed 55848dc20000-55848dd31000 vma
+(00.025663)  11773: Parsed 55848df31000-55848df4e000 vma
+(00.025695)  11773: Parsed 55848df31000-55848df53000 vma
+(00.025724)  11773: Parsed 55848df31000-55848df63000 vma
+(00.025753)  11773: Parsed 55848f54d000-55848f56e000 vma
+(00.025782)  11773: Parsed 7f31f8430000-7f31f85cd000 vma
+(00.025809)  11773: Parsed 7f31f8430000-7f31f87cc000 vma
+(00.025836)  11773: Parsed 7f31f8430000-7f31f87cd000 vma
+(00.025863)  11773: Parsed 7f31f8430000-7f31f87ce000 vma
+(00.025889)  11773: Parsed 7f31f8430000-7f31f89b5000 vma
+(00.025916)  11773: Parsed 7f31f8430000-7f31f8bb5000 vma
+(00.025942)  11773: Parsed 7f31f8430000-7f31f8bb9000 vma
+(00.025969)  11773: Parsed 7f31f8430000-7f31f8bbb000 vma
+(00.025995)  11773: Parsed 7f31f8430000-7f31f8bbf000 vma
+(00.026021)  11773: Parsed 7f31f8430000-7f31f8bd6000 vma
+(00.026048)  11773: Parsed 7f31f8430000-7f31f8dd5000 vma
+(00.026074)  11773: Parsed 7f31f8430000-7f31f8dd6000 vma
+(00.026100)  11773: Parsed 7f31f8430000-7f31f8dd7000 vma
+(00.026126)  11773: Parsed 7f31f8430000-7f31f8dd9000 vma
+(00.026152)  11773: Parsed 7f31f8430000-7f31f8df7000 vma
+(00.026179)  11773: Parsed 7f31f8430000-7f31f8ff6000 vma
+(00.026204)  11773: Parsed 7f31f8430000-7f31f8ff8000 vma
+(00.026282)  11773: Parsed 7f31f8430000-7f31f8ff9000 vma
+(00.026311)  11773: Parsed 7f31f8430000-7f31f8ffc000 vma
+(00.026337)  11773: Parsed 7f31f8430000-7f31f91fb000 vma
+(00.026363)  11773: Parsed 7f31f8430000-7f31f91fc000 vma
+(00.026390)  11773: Parsed 7f31f8430000-7f31f91fd000 vma
+(00.026416)  11773: Parsed 7f31f8430000-7f31f9205000 vma
+(00.026442)  11773: Parsed 7f31f8430000-7f31f9404000 vma
+(00.026468)  11773: Parsed 7f31f8430000-7f31f9405000 vma
+(00.026494)  11773: Parsed 7f31f8430000-7f31f9406000 vma
+(00.026519)  11773: Parsed 7f31f8430000-7f31f9420000 vma
+(00.026545)  11773: Parsed 7f31f8430000-7f31f961f000 vma
+(00.026571)  11773: Parsed 7f31f8430000-7f31f9620000 vma
+(00.026597)  11773: Parsed 7f31f8430000-7f31f9621000 vma
+(00.026622)  11773: Parsed 7f31f8430000-7f31f9625000 vma
+(00.026648)  11773: Parsed 7f31f8430000-7f31f964e000 vma
+(00.026675)  11773: Parsed 7f31f9827000-7f31f982f000 vma
+(00.026701)  11773: Parsed 7f31f9827000-7f31f9846000 vma
+(00.026727)  11773: Parsed 7f31f9847000-7f31f984a000 vma
+(00.026753)  11773: Parsed 7f31f9847000-7f31f984c000 vma
+(00.026859)  11773: Parsed 7f31f9847000-7f31f984e000 vma
+(00.026890)  11773: Parsed 7f31f9847000-7f31f984f000 vma
+(00.026916)  11773: Parsed 7f31f9847000-7f31f9850000 vma
+(00.026942)  11773: Parsed 7f31f9847000-7f31f9851000 vma
+(00.026969)  11773: Parsed 7ffd413f5000-7ffd41416000 vma
+(00.026997)  11773: Parsed 7ffd414e3000-7ffd414e6000 vma
+(00.027022)  11773: Parsed 7ffd414e3000-7ffd414e8000 vma
+(00.027049)  11773: Parsed ffffffffff600000-ffffffffff601000 vma
+(00.027117)  11773: 1 threads require 88K of memory
+(00.027158)  11773: Found bootstrap VMA hint at: 0x10000 (needs ~108K)
+(00.027628)  11773: 	call mremap(0x7f31f9847000, 8192, 8192, MAYMOVE | FIXED, 0x22000)
+(00.027711)  11773: 	call mremap(0x7f31f984a000, 8192, 8192, MAYMOVE | FIXED, 0x24000)
+(00.027950)  11773: xsave runtime structure
+(00.027990)  11773: -----------------------
+(00.028016)  11773: cwd:37f swd:0 twd:0 fop:0 mxcsr:1fa0 mxcsr_mask:ffff
+(00.028047)  11773: magic1:0 extended_size:0 xstate_bv:0 xstate_size:0
+(00.028073)  11773: xstate_bv: 0
+(00.028098)  11773: -----------------------
+(00.028128)  11773: Thread    0 stack  0x18080 rt_sigframe  0x20080
+(00.028297)  11773: Going to chroot into /proc/self/fd/18
+(00.028381)  11773: Restoring umask to 22
+(00.028508)  11773: task_args: 0x21000
+task_args->pid: 11773
+task_args->nr_threads: 1
+task_args->clone_restore_fn: 0x10d80
+task_args->thread_args: 0x21580
+(00.028946)pie: 11773: Switched to the restorer 11773
+(00.030807)pie: 11773: Mapping native vDSO at 0x26000
+(00.031313)pie: 11773: 	mmap(0x5624bb1c4000 -> 0x5624bb4c4000, 0x7 0x12 3)
+(00.031546)pie: 11773: 	mmap(0x5624bb6c4000 -> 0x5624bb6c6000, 0x3 0x12 3)
+(00.031583)pie: 11773: 	mmap(0x5624bb6c6000 -> 0x5624bb73c000, 0x3 0x12 3)
+(00.031640)pie: 11773: 	mmap(0x5624bb73c000 -> 0x5624bb760000, 0x3 0x32 -1)
+(00.031687)pie: 11773: 	mmap(0x5624bc6a1000 -> 0x5624bc775000, 0x3 0x32 -1)
+(00.031714)pie: 11773: 	mmap(0x7f26027af000 -> 0x7f260294c000, 0x5 0x12 4)
+(00.031749)pie: 11773: 	mmap(0x7f260294c000 -> 0x7f2602b4b000, 0x2 0x12 4)
+(00.031785)pie: 11773: 	mmap(0x7f2602b4b000 -> 0x7f2602b4c000, 0x3 0x12 4)
+(00.031822)pie: 11773: 	mmap(0x7f2602b4c000 -> 0x7f2602b4d000, 0x3 0x12 4)
+(00.031852)pie: 11773: 	mmap(0x7f2602b4d000 -> 0x7f2602b69000, 0x5 0x12 5)
+(00.031890)pie: 11773: 	mmap(0x7f2602b69000 -> 0x7f2602d68000, 0x2 0x12 5)
+(00.031920)pie: 11773: 	mmap(0x7f2602d68000 -> 0x7f2602d69000, 0x3 0x12 5)
+(00.031951)pie: 11773: 	mmap(0x7f2602d69000 -> 0x7f2602d6a000, 0x3 0x12 5)
+(00.031980)pie: 11773: 	mmap(0x7f2602d6a000 -> 0x7f2602d6c000, 0x5 0x12 6)
+(00.032010)pie: 11773: 	mmap(0x7f2602d6c000 -> 0x7f2602f6b000, 0x2 0x12 6)
+(00.032046)pie: 11773: 	mmap(0x7f2602f6b000 -> 0x7f2602f6c000, 0x3 0x12 6)
+(00.032075)pie: 11773: 	mmap(0x7f2602f6c000 -> 0x7f2602f6d000, 0x3 0x12 6)
+(00.032103)pie: 11773: 	mmap(0x7f2602f6d000 -> 0x7f2602f70000, 0x5 0x12 7)
+(00.032135)pie: 11773: 	mmap(0x7f2602f70000 -> 0x7f260316f000, 0x2 0x12 7)
+(00.032169)pie: 11773: 	mmap(0x7f260316f000 -> 0x7f2603170000, 0x3 0x12 7)
+(00.032258)pie: 11773: 	mmap(0x7f2603170000 -> 0x7f2603171000, 0x3 0x12 7)
+(00.032288)pie: 11773: 	mmap(0x7f2603171000 -> 0x7f260318b000, 0x5 0x12 8)
+(00.032320)pie: 11773: 	mmap(0x7f260318b000 -> 0x7f260338a000, 0x2 0x12 8)
+(00.032351)pie: 11773: 	mmap(0x7f260338a000 -> 0x7f260338b000, 0x3 0x12 8)
+(00.032380)pie: 11773: 	mmap(0x7f260338b000 -> 0x7f260338c000, 0x3 0x12 8)
+(00.032408)pie: 11773: 	mmap(0x7f260338c000 -> 0x7f2603390000, 0x3 0x32 -1)
+(00.032434)pie: 11773: 	mmap(0x7f2603390000 -> 0x7f2603577000, 0x5 0x12 9)
+(00.032467)pie: 11773: 	mmap(0x7f2603577000 -> 0x7f2603777000, 0x2 0x12 9)
+(00.032498)pie: 11773: 	mmap(0x7f2603777000 -> 0x7f260377b000, 0x3 0x12 9)
+(00.032527)pie: 11773: 	mmap(0x7f260377b000 -> 0x7f260377d000, 0x3 0x12 9)
+(00.032555)pie: 11773: 	mmap(0x7f260377d000 -> 0x7f2603781000, 0x3 0x32 -1)
+(00.032582)pie: 11773: 	mmap(0x7f2603781000 -> 0x7f26037aa000, 0x5 0x12 10)
+(00.032612)pie: 11773: 	mmap(0x7f26037f9000 -> 0x7f260382a000, 0x3 0x12 11)
+(00.032643)pie: 11773: 	mmap(0x7f260382a000 -> 0x7f26039a2000, 0x3 0x32 -1)
+(00.032670)pie: 11773: 	mmap(0x7f26039a3000 -> 0x7f26039aa000, 0x1 0x11 12)
+(00.032704)pie: 11773: 	mmap(0x7f26039aa000 -> 0x7f26039ab000, 0x3 0x12 13)
+(00.032736)pie: 11773: 	mmap(0x7f26039ab000 -> 0x7f26039ac000, 0x3 0x12 13)
+(00.032765)pie: 11773: 	mmap(0x7f26039ac000 -> 0x7f26039ad000, 0x3 0x32 -1)
+(00.032791)pie: 11773: 	mmap(0x7ffebf689000 -> 0x7ffebf6aa000, 0x3 0x132 -1)
+>
+(00.032855)pie: 11773: 	mmap(0x7ffebf6c1000 -> 0x7ffebf6c4000, 0x3 0x32 -1)
+(00.032882)pie: 11773: 	mmap(0x7ffebf6c4000 -> 0x7ffebf6c6000, 0x7 0x32 -1)
+(00.032930)pie: 11773: Preadv 0x5624bb1c4000:4096... (30 iovs)
+(00.040441)pie: 11773: `- returned 2801664
+(00.040585)pie: 11773:    `- skip pagemap
+(00.040622)pie: 11773:    `- skip pagemap
+(00.040640)pie: 11773:    `- skip pagemap
+(00.040656)pie: 11773:    `- skip pagemap
+(00.040672)pie: 11773:    `- skip pagemap
+(00.040687)pie: 11773:    `- skip pagemap
+(00.040702)pie: 11773:    `- skip pagemap
+(00.040719)pie: 11773:    `- skip pagemap
+(00.040734)pie: 11773:    `- skip pagemap
+(00.040749)pie: 11773:    `- skip pagemap
+(00.040763)pie: 11773:    `- skip pagemap
+(00.040778)pie: 11773:    `- skip pagemap
+(00.040793)pie: 11773:    `- skip pagemap
+(00.040808)pie: 11773:    `- skip pagemap
+(00.040822)pie: 11773:    `- skip pagemap
+(00.040837)pie: 11773:    `- skip pagemap
+(00.040852)pie: 11773:    `- skip pagemap
+(00.040866)pie: 11773:    `- skip pagemap
+(00.040881)pie: 11773:    `- skip pagemap
+(00.040896)pie: 11773:    `- skip pagemap
+(00.040910)pie: 11773:    `- skip pagemap
+(00.040925)pie: 11773:    `- skip pagemap
+(00.040939)pie: 11773:    `- skip pagemap
+(00.040954)pie: 11773:    `- skip pagemap
+(00.040968)pie: 11773:    `- skip pagemap
+(00.040983)pie: 11773:    `- skip pagemap
+(00.040997)pie: 11773:    `- skip pagemap
+(00.041012)pie: 11773:    `- skip pagemap
+(00.041026)pie: 11773:    `- skip pagemap
+(00.041040)pie: 11773:    `- skip pagemap
+(00.041246)pie: 11773: vdso: Parsing at 0x7ffebf6c4000 0x7ffebf6c6000
+(00.041390)pie: 11773: vdso: PT_LOAD p_vaddr: 0x0
+(00.041485)pie: 11773: vdso: DT_HASH: 0x120
+(00.041580)pie: 11773: vdso: DT_STRTAB: 0x298
+(00.041610)pie: 11773: vdso: DT_SYMTAB: 0x1a8
+(00.041636)pie: 11773: vdso: DT_STRSZ: 0x5e
+(00.041662)pie: 11773: vdso: DT_SYMENT: 0x18
+(00.041923)pie: 11773: vdso: nbucket 0x3 nchain 0xa bucket 0x7ffebf6c4128 cha>
+(00.041923)pie: 11773: in 0x7ffebf6c4134
+(00.042208)pie: 11773: vdso: image [vdso] 0x7ffebf6c4000-0x7ffebf6c6000 [vvar>
+(00.042208)pie: 11773: ] 0x7ffebf6c1000-0x7ffebf6c4000
+(00.042292)pie: 11773: vdso: Runtime vdso/vvar matches dumpee, remap inplace
+>
+(00.042419)pie: 11773: vdso: Remap rt-vdso 0x29000 -> 0x7ffebf6c4000
+(00.042505)pie: 11773: vdso: Remap rt-vvar 0x26000 -> 0x7ffebf6c1000
+(00.043063)pie: 11773: Restoring scheduler params 0.0.0
+(00.043299)pie: 11773: 11773: Restored
+(00.043729) Running post-restore scripts
+(00.043795) Unlock network
+(00.044055)pie: 11773: restoring seccomp mode 0 for 11773
+(00.044498) Force no-breakpoints restore
+(00.044542) Restore finished successfully. Resuming tasks.
+(00.044700) 11773 was trapped
+(00.044745) 11773 (native) is going to execute the syscall 202, required is 15
+(00.044834) 11773 was trapped
+(00.044860) `- Expecting exit
+(00.044954) 11773 was trapped
+(00.044985) 11773 (native) is going to execute the syscall 3, required is 15
+(00.045084) 11773 was trapped
+(00.045108) `- Expecting exit
+(00.045190) 11773 was trapped
+(00.045220) 11773 (native) is going to execute the syscall 3, required is 15
+(00.045501) 11773 was trapped
+(00.045539) `- Expecting exit
+(00.045658) 11773 was trapped
+(00.045688) 11773 (native) is going to execute the syscall 11, required is 15
+(00.045837) 11773 was trapped
+(00.045861) `- Expecting exit
+(00.045971) 11773 was trapped
+(00.046001) 11773 (native) is going to execute the syscall 15, required is 15
+(00.046105) 11773 was stopped
+(00.046266) 11773 was trapped
+(00.046297) 11773 (native) is going to execute the syscall 11, required is 11
+(00.046456) 11773 was stopped
+(00.046495) Running pre-resume scripts
+(00.046539) Writing stats
+(00.047472) Running post-resume scripts

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+// 定义MessageControl服务
+service MessageControl {
+    // 上传消息的RPC方法
+    rpc Upload(UploadRequest) returns (UploadResponse) {}
+    // 获取消息的RPC方法
+    rpc Fetch(FetchRequest) returns (FetchResponse) {}
+}
+
+// 上传消息的请求消息类型
+message UploadRequest {
+    string UUID = 1; // UUID，用于标识消息的唯一ID
+    string Message = 2; // 消息内容
+    int32 RemainTime = 3; // 消息剩余时间
+}
+
+// 上传消息的响应消息类型
+message UploadResponse {
+    string Message = 1; // 响应消息，表示上传结果
+}
+
+// 获取消息的请求消息类型
+message FetchRequest {
+    string UUID = 1; // UUID，用于标识消息的唯一ID
+}
+
+// 获取消息的响应消息类型
+message FetchResponse {
+    string Message = 1; // 响应消息，表示获取到的消息内容
+}
